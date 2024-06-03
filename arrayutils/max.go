@@ -1,7 +1,7 @@
 package arrayutils
 
-// Max function to find the maximum number in an array
-func Max(arr []int) int {
+// MaxInt function to find the maximum number in an array
+func MaxInt(arr []int) int {
 	if len(arr) == 0 {
 		return 0
 	}

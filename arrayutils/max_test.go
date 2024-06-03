@@ -2,7 +2,7 @@ package arrayutils
 
 import "testing"
 
-func TestMax(t *testing.T) {
+func TestMaxInt(t *testing.T) {
 	tests := []struct {
 		numbers  []int
 		expected int
@@ -13,9 +13,9 @@ func TestMax(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		actual := Max(test.numbers)
+		actual := MaxInt(test.numbers)
 		if actual != test.expected {
-			t.Errorf("Max(%#v) = %#v; expected %#v", test.numbers, actual, test.expected)
+			t.Errorf("MaxInt(%#v) = %#v; expected %#v", test.numbers, actual, test.expected)
 		}
 	}
 }
