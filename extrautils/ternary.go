@@ -1,4 +1,4 @@
-package extra
+package extrautils
 
 // Ternary a function that simulates the behavior of the ternary operator
 func Ternary(condition bool, trueVal, falseVal interface{}) interface{} {
