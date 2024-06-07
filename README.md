@@ -2,6 +2,8 @@
 
 Вспомогательные утилиты при работе с разными проектами
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/algrvvv/goutils)](https://goreportcard.com/report/github.com/algrvvv/goutils)
+
 #### Установка
 
 На данные момент актуальная версия: v0.12.4
