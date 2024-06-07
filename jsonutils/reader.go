@@ -16,6 +16,9 @@ func GetValueByKey(path, key string) (string, error) {
 	splitKey := strings.Split(key, ".")
 
 	file, err := os.Open(path)
+	if err != nil {
+		return "", err
+	}
 	defer func(file *os.File) {
 		err := file.Close()
 		if err != nil {
