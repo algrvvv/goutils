@@ -1,8 +1,8 @@
 package arrayutils
 
-import "cmp"
-
-func MapValues[T cmp.Ordered](values []T, mapFunc func(T) T) []T {
+// MapValues a function to iterate through an array of elements
+// and apply a callback to each element
+func MapValues[T any](values []T, mapFunc func(T) T) []T {
 	var newValues []T
 	for _, value := range values {
 		newValue := mapFunc(value)
