@@ -6,13 +6,13 @@
 
 #### Установка
 
-На данные момент актуальная версия: v0.12.4
+На данные момент актуальная версия: v0.15.6
 
 ```shell
-
-go get github.com/algrvvv/goutils@v0.12.4
-
+$ go get github.com/algrvvv/goutils@latest # для устанвоки
+$ go get -u get github.com/algrvvv/goutils@latest # для обновления
 ```
+
 
 Утилиты включают в себя: 
 - работу со строками
